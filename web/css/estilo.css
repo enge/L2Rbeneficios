@@ -1,0 +1,299 @@
+
+.ui-layout-container{
+    background:  white !important;
+  }
+
+  .ui-widget-content{
+      border: none !important;
+      padding: 0px !important;
+      background-color: white !important;
+  }
+ 
+#img{
+       
+    width:  calc(100%);
+    height:  80px;
+    
+   
+              
+}
+
+
+.ui-layout-unit-content.ui-widget-content{
+    
+    color: black !important;
+    background:  aliceblue !important;
+
+}
+#ans{
+    
+    left: 85%;
+    top: 8px;
+    position: absolute;
+}
+#ans1{
+    
+    right: 90%;
+    top: 8px;
+    position: absolute;
+}
+#area
+{
+    position:absolute;
+    left: 80%;
+    top:8%;
+    
+}
+
+#teste{
+  position: relative; 
+  background-color: white;
+  width: 870px;
+  height: 130px;
+  margin: 5px auto;  
+  
+  
+  
+}
+#teste2{
+  position: absolute; 
+  background-color: white;
+  width: 190px;
+  height: 430px;
+  margin: 10px auto;  
+  left: 1%;
+  
+  
+}
+#teste3{
+  position: absolute; 
+  background-color: white;
+  width: 190px;
+  height: 430px;
+  margin: 10px auto; 
+  right: 1%;
+}
+#tabela{
+  border: 2px ;
+  line-height: calc(0%) !important;  
+  position: absolute ;
+  background-color: white;
+  left: 30%;
+  margin: 5px ;  
+  margin-bottom: 5px ;
+  margin-left: 5px ;
+  margin-right: 5px ;
+   
+}
+
+body {  
+
+  font-family: arial, helvetica, sans-serif;
+  margin: 0px auto;  
+  padding: 0px; 
+  color: #333; 
+  text-align: center;  
+  font-size: 14px; 
+  line-height: 140%;
+}
+
+#contenedor {
+  margin: 0px auto;  
+  width: 900px; 
+  position:static;
+}
+
+#contenido {
+    margin: 10px 10px 10px 10px; 
+    padding: 10px 0px 0px 10px; 
+  
+}
+
+#bloque-imagen {
+  float: left;
+  width: auto;
+}
+
+#bloque-imagen2 {
+  float: left;
+  margin-left: 6px;
+  
+}
+
+div, img, form, ul, td, th {
+  margin: 0px; 
+  padding: 0px; 
+  border: 0px; 
+  text-align: left;
+}
+
+
+h3 {
+  color: #666666;
+  text-shadow: 0 0 1px #999999;
+}
+
+.explicacion ul
+{
+  list-style:inside circle;
+  margin-bottom:10px;
+  margin-left: 20px;
+}
+
+.explicacion {
+  position: relative;
+}
+
+.explicacion .titulo
+{
+  position: absolute;
+  
+  background-repeat: no-repeat;
+  display: block;
+  height: 49px;
+  width:590px;
+  padding-left: 10px;
+  padding-top: 7px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800; 
+  font-size: 17px;
+  color: #503e21;
+  text-shadow: 0px 1px 1px rgba(255, 255, 255, .5);
+}
+
+pre { 
+  margin: 10px 0px; 
+  padding: 0; 
+}
+
+code { 
+  display: block; 
+  background-color: #F7F4DD; 
+  padding: 10px; 
+  overflow: auto; 
+}
+
+#footer {
+  clear: both;
+  width: 100%;
+  height: 129px;
+ 
+  text-align: center;
+
+}
+
+.clearfix:after, .container:after {
+  content:"\0020"; 
+  display:block; 
+  height:0; 
+  clear:both; 
+  visibility:hidden; 
+  overflow:hidden;
+}
+
+.clearfix, .container {
+  display:block;
+}
+
+.clear {
+  clear:both;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+
+
+/**** Choco-Slider ****/
+#slider {
+  height: 280px;
+  width: 860px;
+}
+.chocoslider {
+  position:relative;
+  margin-bottom: 10px;
+}
+
+.chocoslider img {
+  position:absolute;
+  top:0px;
+  left:0px;
+}
+
+.chocoslider a.choco-imageLink {
+  position:absolute;
+  top:0px;
+  left:0px;
+  width:100%;
+  height:100%;
+  border:0;
+  padding:0;
+  margin:0;
+  z-index:60;
+  display:none;
+}
+
+.choco-slice {
+  display:block;
+  position:absolute;
+  z-index:50;
+  height:100%;
+}
+
+.choco-title {
+  position:absolute;
+  left:0px;
+  bottom:0px;
+  background:#000;
+  color:#fff;
+  opacity:0.8;
+  width:100%;
+  z-index:89;
+}
+
+.choco-title p {
+  padding:5px;
+  margin:0;
+}
+
+.choco-title a {
+  display:inline !important;
+}
+
+.choco-html-title {
+    display:none;
+}
+
+.choco-controlNavigation {
+  position:absolute;
+  right:0%;
+  bottom:-30px;
+}
+
+.choco-controlNavigation a {
+  text-indent: -999999px;
+  text-transform:uppercase;
+    text-decoration:none;
+    height:20px;
+    width:18px;
+    display:block;
+    cursor: pointer;
+   
+    float:left;
+    outline: none;
+}
+
+.choco-controlNavigation a.active {
+  
+}.header {
+
+}
+
+.content {
+
+}
