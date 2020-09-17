@@ -1,12 +1,14 @@
 
 .ui-layout-container{
-    background:  white !important;
+    background:  window !important;
+    left: 40;
   }
 
   .ui-widget-content{
       border: none !important;
       padding: 0px !important;
       background-color: white !important;
+   
   }
  
 #img{
@@ -22,8 +24,8 @@
 .ui-layout-unit-content.ui-widget-content{
     
     color: black !important;
-    background:  aliceblue !important;
-
+    background: white !important;
+    
 }
 #ans{
     
@@ -32,9 +34,16 @@
     position: absolute;
 }
 #ans1{
-    
-    right: 90%;
-    top: 8px;
+    right: 80%;
+    top: 5px;
+    position: absolute;
+}
+#ans2{
+    left: 28%;
+    position: absolute;
+}
+#ans3{
+    left: 75%;
     position: absolute;
 }
 #area
@@ -47,32 +56,29 @@
 
 #teste{
   position: relative; 
-  background-color: white;
-  width: 870px;
-  height: 130px;
-  margin: 5px auto;  
+  width: 820px;
+  height: 85px;
+  margin: 2px auto;  
   
   
   
 }
 #teste2{
-  position: absolute; 
-  background-color: white;
-  width: 190px;
-  height: 430px;
-  margin: 10px auto;  
-  left: 1%;
-  
-  
+    left: 50px;
+    position: absolute;
+    width: 100px;
+    height: 200px;
+    margin: 10px;
 }
 #teste3{
-  position: absolute; 
-  background-color: white;
-  width: 190px;
-  height: 430px;
-  margin: 10px auto; 
-  right: 1%;
+    right: 155px;
+    position: absolute;
+    width: 100px;
+    height: 200px;
+    margin: 10px;
+ 
 }
+
 #tabela{
   border: 2px ;
   line-height: calc(0%) !important;  
@@ -211,8 +217,14 @@ code {
 
 /**** Choco-Slider ****/
 #slider {
-  height: 280px;
+  margin-top: 12px;
+  height: 250px;
   width: 860px;
+}
+#slider1 {
+    width: 100%;
+    z-index: -1;
+    height: 280px;
 }
 .chocoslider {
   position:relative;
@@ -288,12 +300,3 @@ code {
     outline: none;
 }
 
-.choco-controlNavigation a.active {
-  
-}.header {
-
-}
-
-.content {
-
-}
